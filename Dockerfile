@@ -1,6 +1,6 @@
 FROM container-registry.oracle.com/database/express:latest
 
-COPY init.sql /docker-entrypoint-initdb.d/startup/
+COPY init.sql /docker-entrypoint-initdb.d/setup/
 #RUN  chown oracle /docker-entrypoint-initdb.d/setup/init.sql
 
 ENV  ORACLE_PWD manager

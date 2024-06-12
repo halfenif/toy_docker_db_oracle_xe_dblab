@@ -19,3 +19,4 @@ docker-compose up
 # echo 3. Good luck!
 # echo ------------------------------------------
 
+#https://askubuntu.com/questions/1190804/timedatectl-failed-to-create-bus-connection-no-such-file-or-directory
