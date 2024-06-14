@@ -19,7 +19,7 @@ cd toy_docker_db_oracle_xe
 ```
 - docker-compose를 호출합니다
 - schema 구성을 위한 docker명령을 echo로 출력합니다.
-- Oracle이 정상적으로 구동 될 때까지 기다립니다.
+- **Oracle이 정상적으로 구동 될 때까지 기다려야 합니다.**
 - init.sql을 호출해서 DB를 구성합니다.
 
 ### Config
@@ -27,6 +27,7 @@ cd toy_docker_db_oracle_xe
 - Timezone: Asia/Seoul, Dockerfile
 - Port: docker-compose.yaml
 - DBMS, User, Password: init.sql
+- unixodbc: ./unixODBC/odbcinst.ini
 
 
 ## Feature
