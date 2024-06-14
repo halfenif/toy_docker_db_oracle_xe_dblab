@@ -1,1 +1,1 @@
-harlequin -a odbc 'Driver={ODBC Driver 18 for SQL Server};Server=tcp:localhost,1521;Database=XE;Uid=userdb;Pwd=userdb;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
+harlequin -a odbc 'DRIVER=oracle;DBQ=localhost:1521/XE;UID=userdb;PWD=userdb'

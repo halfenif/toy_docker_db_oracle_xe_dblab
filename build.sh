@@ -2,9 +2,10 @@ docker kill toy_docker_db_oracle_xe
 docker containter rm toy_docker_db_oracle_xe
 docker image rm toy_docker_db_oracle_xe
 
-sudo rm -rf ./oradata
+#sudo rm -rf ./oradata
 
 DOCKER_BUILDKIT=1 docker build --no-cache --tag toy_docker_db_oracle_xe .
+# DOCKER_BUILDKIT=1 docker build --tag toy_docker_db_oracle_xe .
 
 docker image ls
 
