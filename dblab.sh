@@ -1,0 +1,1 @@
+/home/oracle/dblab --url 'oracle://userdb:userdb@localhost:1521/xe'

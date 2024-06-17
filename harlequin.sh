@@ -1,1 +1,0 @@
-harlequin -a odbc 'DRIVER=oracle;DBQ=localhost:1521/XE;UID=userdb;PWD=userdb'
