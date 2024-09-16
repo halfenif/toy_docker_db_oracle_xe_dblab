@@ -1,4 +1,4 @@
-# OracleXE + Harlequine
+# OracleXE + dblab
 
 목적: oracle 설정 template
 
@@ -9,12 +9,12 @@
 
 ### Clone
 ```bash
-git clone https://github.com/halfenif/toy_docker_db_oracle_xe.git
+git clone https://github.com/halfenif/toy_docker_db_oracle_xe_dblab.git
 ```
 
 ### Build
 ```bash
-cd toy_docker_db_oracle_xe
+cd toy_docker_db_oracle_xe_dblab
 ./build.sh
 ```
 - docker-compose를 호출합니다
@@ -27,13 +27,10 @@ cd toy_docker_db_oracle_xe
 - Timezone: Asia/Seoul, Dockerfile
 - Port: docker-compose.yaml
 - DBMS, User, Password: init.sql
-- unixodbc: ./unixODBC/odbcinst.ini
 
 
 ## Feature
-- Python 3.9
-- Oracle Instant Client, unixODBC
-
+- [dblab](https://github.com/danvergara/dblab)
 ---
 If you feel something isn't working right, I recommend clearing Docker's cached images, containers, and volumes, and then trying again.  
 뭔가 잘 안된다고 생각되면. Docker의 cache에 해당하는 image, container, volume을 clear하고 해 보는 것을 권합니다.
