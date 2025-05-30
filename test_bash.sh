@@ -1,0 +1,1 @@
+podman exec -it toy_docker_db_oracle_xe /bin/bash
